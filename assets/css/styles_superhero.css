@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to left ,blue,red);
+}
+
+h1{
+    color: white;
+}
+/* styling for the container */
+.container{
+    height: 95vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+/* styling for the main container */
+#main-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
